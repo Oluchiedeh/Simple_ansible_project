@@ -39,10 +39,22 @@
      
 
      ![](securitygroup5.png)
+     
+ **3. Launch an EC2 Instance for ansible_machine.**
+ 
+    - In the management console type  'EC2', the select EC2.
+    - On the EC2 console select 'Launch instance'
+    - Name the Instance 'Ansible_machine'
+    - The application and OS Images should be 'Amazon Linux'
+    - Under 'Amazon Machine Images (AMI) select 'Amazon Linux 2 AMI (HVM) which is a free tier eligible.
+    - Instance Type select 't2 micro' (free tier eligible).
+    - Choose a created keypair or create a new one to work with.
+    - Network setting: Edit { VPC (Default), Subnet (us east 1a), firewall (security group) (select 'existing security group' then select 'ansible_machine sg') }
+    
+    ![](EC21.png)
 
-   **3**
-    
-    
+
+ **4.** 
     
 
     
