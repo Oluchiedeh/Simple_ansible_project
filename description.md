@@ -32,7 +32,15 @@
    - The inbound rule will be two(2) rules 1. 'HTTP' and source to 'anywhere IPv4', 2. 'ssh' and source 'ansible_machine sg'
    - Then select create security group.
 
-    ![](securitygroup3.png)
+     ![](securitygroup3.png)
+     
+
+     ![](securitygroup4.png)
+     
+
+     ![](securitygroup5.png)
+
+   **3**
     
     
     
