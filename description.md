@@ -33,8 +33,8 @@
    - Then select create security group.
 
     ![](securitygroup3.png)
+    
+    
+    
 
-    ![](securitygroup4.png)
-
-    ![](securitygroup5.png)
-     
+    
