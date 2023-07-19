@@ -10,7 +10,7 @@
 
 
 ## Steps involve in the project creation.
-1. Create security group(SG) for the ansible machine.
+**1. Create security group(SG) for the ansible machine.**
    - In the management console type VPC, and select VPC under services. scroll 
       and select security group
    - Click the security group and give it a name [ansible_machine SG]
@@ -23,4 +23,18 @@
 
      ![](securitygroup2.png)
      
-2. Create security group to add to webservers.
+**2. Create security group to add to webservers.**
+   - In the management console type VPC, and select VPC under services. scroll 
+      and select security group
+   - Click the security group and give it a name [server SG]
+   - Give the SG a description name.
+   - Select the default VPC.
+   - The inbound rule will be two(2) rules 1. 'HTTP' and source to 'anywhere IPv4', 2. 'ssh' and source 'ansible_machine sg'
+   - Then select create security group.
+
+    ![](securitygroup3.png)
+
+    ![](securitygroup4.png)
+
+    ![](securitygroup5.png)
+     
