@@ -18,5 +18,9 @@
    - Select the default VPC.
    - The inbound rule will be 'ssh rule' and source to 'My IP'
    - Then select create security group.
-     !#[]
+     
+     ![](securitygroup1.png)
+
+     ![](securitygroup2.png)
+     
 2. Create security group to add to webservers.
