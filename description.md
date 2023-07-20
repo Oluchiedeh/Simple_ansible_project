@@ -94,6 +94,6 @@
      
      ![](key3.png)
     
-    
+  **7. Launch the servers.**
 
     
