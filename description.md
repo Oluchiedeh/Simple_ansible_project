@@ -61,7 +61,26 @@
 
    ![](EC25.png)
 
-  **4.** 
+  **4.SSH into the EC2 Instance.** 
+   - Select the created instance and click 'connect'.
+   - Then follow the direction provided to ssh.
+     
+   ![](ssh1.png)
+
+   ![](ssh1a.png)
+
+  **5. Create Key Pairs on the ansible-machine**
+   - These will enable a connection between the ansible-machine and the other servers.
+   - Steps: `ssh-keygen -t rsa -b 2048`
+   - `pwd` -(to view present directory)
+   - `cd .ssh` - (these command will enable us to enter the .ssh directory)
+   - `ls` - (to all directory)
+     
+  ![](ssh2.png)
+    
+  
+
+    
     
 
     
