@@ -78,8 +78,21 @@
      
   ![](ssh2.png)
     
-  
+  **6. Import public key into the EC2 Instance**
+   - Print the content of the public key. `cat id_rsa.pub`.
+   - Select and copy the content.
+   - Then move the management console and follow the below steps.
+   - 'Network and Security'
+   - 'key pair'
+   - 'Action'
+   - 'Import key pair'
+   - Name the key pair and paste the copied content.
 
+     ![](key1.png)
+
+     ![](key2.png)
+     
+     ![](key3.png)
     
     
 
